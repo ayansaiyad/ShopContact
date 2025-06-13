@@ -29,12 +29,7 @@ Before you begin, ensure you have the following installed:
 
 ## Getting Started
 
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/MY-SHOP.git
-cd MY-SHOP
-```
-
+1. Download the project files
 2. Install dependencies:
 ```bash
 npm install
@@ -94,23 +89,22 @@ The application uses Firebase security rules to ensure data security. The rules 
 
 The application is configured for deployment on Vercel. To deploy:
 
-1. Push your code to GitHub
-2. Connect your repository to Vercel
-3. Add your environment variables in Vercel dashboard
-4. Deploy!
+1. Set up your project on Vercel
+2. Add your environment variables in Vercel dashboard
+3. Deploy!
 
-## Contributing
+## Privacy and Security
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+This is a private project and the code is not publicly available. Please ensure:
+- Keep your Firebase configuration secure
+- Never commit `.env.local` file to version control
+- Regularly update dependencies for security patches
+- Follow Firebase security best practices
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This is a private project. All rights reserved.
 
 ## Support
 
-For support, email your-email@example.com or open an issue in the GitHub repository.
+For support, please contact the development team directly.
